@@ -24,3 +24,29 @@ else
     min = number1;
     Console.WriteLine("Максималное число - " + max + "," + " Минимальное число - " + min);
 }
+
+
+// /*
+// Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
+// */
+
+Console.WriteLine("Введите три целых числа ");
+int number1 = Convert.ToInt32( Console.ReadLine());
+int number2 = Convert.ToInt32( Console.ReadLine());
+int number3 = Convert.ToInt32( Console.ReadLine());
+int max = 0;
+
+if (number1 > number2)
+{
+    max = number1;
+}
+else if ( number2 > number3 )
+{
+    max = number2;
+}
+else 
+{
+    max = number3;
+}
+
+Console.WriteLine("Максималное число - " + max);
